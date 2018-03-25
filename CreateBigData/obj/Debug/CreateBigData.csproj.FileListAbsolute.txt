@@ -1,0 +1,10 @@
+E:\Source\CreateBigData\CreateBigData\bin\Debug\CreateBigData.exe.config
+E:\Source\CreateBigData\CreateBigData\bin\Debug\CreateBigData.exe
+E:\Source\CreateBigData\CreateBigData\bin\Debug\CreateBigData.pdb
+E:\Source\CreateBigData\CreateBigData\obj\Debug\CreateBigData.csprojResolveAssemblyReference.cache
+E:\Source\CreateBigData\CreateBigData\obj\Debug\CreateBigData.Properties.Resources.resources
+E:\Source\CreateBigData\CreateBigData\obj\Debug\CreateBigData.csproj.GenerateResource.cache
+E:\Source\CreateBigData\CreateBigData\obj\Debug\CreateBigData.csproj.CoreCompileInputs.cache
+E:\Source\CreateBigData\CreateBigData\obj\Debug\CreateBigData.exe
+E:\Source\CreateBigData\CreateBigData\obj\Debug\CreateBigData.pdb
+E:\Source\CreateBigData\CreateBigData\obj\Debug\CreateBigData.Form1.resources
