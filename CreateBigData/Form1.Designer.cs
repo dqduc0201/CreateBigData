@@ -322,6 +322,7 @@
             // 
             // txtHoaDon
             // 
+            this.txtHoaDon.Enabled = false;
             this.txtHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHoaDon.Location = new System.Drawing.Point(195, 222);
             this.txtHoaDon.Name = "txtHoaDon";

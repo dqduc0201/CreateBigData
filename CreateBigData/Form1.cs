@@ -422,11 +422,6 @@ namespace CreateBigData
                 MessageBox.Show("Dữ liệu dòng của đặt phòng không được trống");
                 return false;
             }
-            if (txtHoaDon.Text == "")
-            {
-                MessageBox.Show("Dữ liệu dòng của hóa đơn không được trống");
-                return false;
-            }
             return true;
         }
         private void button1_Click(object sender, EventArgs e)
@@ -439,14 +434,14 @@ namespace CreateBigData
             row.Khachsan = int.Parse(txtKhachSan.Text);
             row.Loaiphong = int.Parse(txtLoaiPhong.Text);
             row.Datphong = int.Parse(txtDatPhong.Text);
-            row.Hoadon = int.Parse(txtHoaDon.Text);
+         //   row.Hoadon = int.Parse(txtHoaDon.Text);
 
             AddMember(row.Khachhang);
             AddHotel(row.Khachsan);
             AddTypeOfRoom(row.Loaiphong, row.Khachsan);
             AddRoomAndState(row.Loaiphong);
             AddBookRoom(row.Datphong, row.Khachhang, row.Loaiphong);
-            AddBill(row.Hoadon);
+            AddBill(row.Datphong/2);
             MessageBox.Show("Đã khởi tạo thành công!" + "Thời gian khởi tạo: " + start.ToLongTimeString() + "- " + DateTime.Now.ToLongTimeString());
             btnTao.Enabled = false;
             btnReset.Enabled = true;

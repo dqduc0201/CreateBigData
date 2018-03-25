@@ -273,3 +273,4 @@ begin
 	delete KhachHang
 	DBCC checkident(KhachHang,reseed,0)
 end
+exec Reset_Database
